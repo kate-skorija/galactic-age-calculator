@@ -2,17 +2,6 @@ export class User {
   constructor(earthAge, earthLifeExpectancy) {
     this.earthAge = earthAge;
     this.earthLifeExpectancy = earthLifeExpectancy; 
-    this.yearsLeftOnEarth;
-    // this.yearsOverEarth;
-    // this.mercuryAge;
-    // this.yearsOverMercury;
-    // this.yearsLeftOnMercury;
-    // this.venusAge;
-    // this.yearsLeftOnVenus;
-    // this.marsAge;
-    // this.yearsLeftOnMars;
-    // this.jupiterAge;
-    // this.yearsLeftOnJupiter;
   }
 
   earthYearsRemaining() {

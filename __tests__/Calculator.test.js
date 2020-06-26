@@ -5,8 +5,8 @@ describe('Earth, Mercury, Venus, Mars, & Jupiter age and life expectancy', () =>
   let user2;
 
   beforeEach(() => {
-    user = new User(27, 98)
-    user2 = new User(103, 87)
+    user = new User(27, 98);
+    user2 = new User(103, 87);
     user.earthYearsRemaining();
     user2.earthYearsRemaining();
     user.calculateMercury();
