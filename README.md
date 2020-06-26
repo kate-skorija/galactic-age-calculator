@@ -1,30 +1,54 @@
-# README Template
+# Super Galactic Age Calculator
 
-#### Exercise for Epicodus, 06.19.2020
+#### Test Driven Development Excersize for Epicodus, 06.26.2020
 
 ### By Kate Skorija
 
 ## Description
 
-This is a website for... You may view the published site on [GitHub Pages](https://kate-skorija.github.io/pizza-parlor/).
+This is a website for calculating your age on another planet. It was built using JavaScript, bundled with webpack, and tested with Jest.
 
 ## Specifications
 
-**Behavior**: Program will only let users select a pizza size
-  * Input: User selects "Medium"
-  * Output: Medium pizza object is created
+**Behavior**: Program will take a user's age and life expectancy in Earth years
+  * Input: User submits Earth age into form field
+  * Output: Program takes in Earth age value
 
-**Behavior**: Program will let users select toppings for their pizza
-  * Input: User selects "Pepperoni" and "Mushroom"
-  * Output: Pepperonis and mushrooms are added to the pizza object
+**Behavior**: Program will return user's age in Mercury years
+  * Input: Earth years
+  * Output: Mercury years
 
-  **Behavior**: Program will allow users to add multiple pizzas to their order
-  * Input: User clicks "Add another pizza"
-  * Output: Previous pizza is saved and new selections can be made for another pizza
+**Behavior**: Program will return user age's in Venus years
+  * Input: Earth years
+  * Output: Venus years
 
-**Behavior**: Program will return a price to the user, depending on their selections
- * Input: Users clicks "Checkout"
- * Output: "Your total: $12.00"
+**Behavior**: Program will return user age's in Mars Years
+ * Input: Earth years
+ * Output: Mars years
+
+**Behavior**: Program will return user age's in Jupiter Years
+ * Input: Earth years
+ * Output: Jupiter years
+
+**Behavior**: Program will return how many years a user has left to live on Mercury
+  * Input: Life expectancy
+  * Output: Years left on Mercury
+
+**Behavior**: Program will return how many years a user has left to live on Venus
+  * Input: Life expectancy
+  * Output: Years left on Venus
+
+**Behavior**: Program will return how many years a user has left to live on Mars
+  * Input: Life expectancy
+  * Output: Years left on Mars
+
+**Behavior**: Program will return how many years a user has left to live on Jupiter
+  * Input: Life expectancy
+  * Output: Years left on Jupiter
+
+**Behavior**: If the user has surpassed their life expectancy rogram will return how many years a user has surpassed their life expectancy
+  * Input: Life expectancy
+  * Output: "You've lived 21 years past your life expectancy"
 
 ## Setup/Installation Requirements
 
@@ -36,12 +60,12 @@ Software Requirements:
 
 To Open:
 
-1.  Navigate to the [language-selector respository](https://github.com/kate-skorija/pizza-parlor) or open your terminal
+1.  Navigate to the [galactic-age-calculator respository](https://github.com/kate-skorija/galactic-age-calculator) or open your terminal
 
 2. Clone this project using the GitHub button or the command:
-`$ git clone https://github.com/kate-skorija/pizza-parlor.git`
+`$ git clone https://github.com/kate-skorija/galactic-age-calculator.git`
 
-3. Navigate to the `pizza-parlor` directory in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
+3. Navigate to the `galactic-age-calculator` directory in your editor of choice, or use [Visual Studio Code](https://code.visualstudio.com/)
 
 4. Open in the browser of your choice by dragging and dropping the `index.html` file into a browser window  
 
@@ -58,10 +82,12 @@ If there are any issues or questions, please reach out to me through [my GitHub 
 *  [Visual Studio Code](https://code.visualstudio.com/)
 *  [Markdown](https://daringfireball.net/projects/markdown/)
 *  [HTML](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-*  [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
-*  [Bootstrap](https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap)
+<!-- *  [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+*  [Bootstrap](https://developer.mozilla.org/en-US/docs/Glossary/Bootstrap) -->
 *  [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 *  [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery)
+*  [Webpack](https://webpack.js.org/)
++  [Jest](https://jestjs.io/en/)
 
 ### License
 
