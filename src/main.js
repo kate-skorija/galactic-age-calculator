@@ -21,10 +21,10 @@ $(document).ready(function() {
     user.calculateJupiter();
 
     if (user.yearsOverEarth) {
-      let longLived = (`You are ${user.earthAge} years old in Earth years, and you have outlived your life expectancy by ${user.yearsOverEarth} years!`)
+      let longLived = (`You are ${user.earthAge} years old, and you have outlived your Earth life expectancy by ${user.yearsOverEarth} years!`)
       $(".earthResults").text(longLived);
     } else {
-      let earthResult = (`Your are ${user.earthAge} years old in Earth years, and you have ${user.earthLifeExpectancy} years remaining on this planet.`)
+      let earthResult = (`Your are ${user.earthAge} years old, and you have ${user.yearsLeftOnEarth} years remaining on planet Earth.`)
       $(".earthResults").text(earthResult);
     }
     

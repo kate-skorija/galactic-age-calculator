@@ -20,7 +20,8 @@ header p {
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 90px;
+  font-family: 'Chicle', cursive;
 }
 
 /* Form ---------------------------------*/
@@ -29,6 +30,8 @@ body {
   background-image: url(./../assets/images/universe.jpg);
   margin-bottom: 200px;
   color: lightcyan;
+  font-family: 'Open Sans', sans-serif;
+  padding: 30px;
 }
 
 #form {
@@ -36,7 +39,12 @@ body {
 }
 
 label {
-  font-size: 20px;
+  font-size: 40px;
+  font-family: 'Chicle', cursive;
+}
+
+.btn {
+  background-color: lightskyblue;
 }
 
 /* Images -------------------------------*/
@@ -67,6 +75,7 @@ img {
 
 h2 {
   margin-bottom: 15px;
+  font-family: 'Chicle', cursive;
 }
 
 #planets {
@@ -74,10 +83,11 @@ h2 {
 }
 
 #planets p {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .galacticNumbers {
-  font-size: 35px;
-  color: lime;
+  font-family: 'Chicle', cursive;
+  font-size: 50px;
+  color:darkorange;
 }
