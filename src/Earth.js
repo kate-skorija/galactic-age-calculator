@@ -3,4 +3,8 @@ export class Earth {
     this.age = age;
     this.lifeExpectancy = lifeExpectancy;  
   }
+
+  yearsRemaining() {
+    
+  }
 }
