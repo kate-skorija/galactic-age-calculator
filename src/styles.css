@@ -41,6 +41,7 @@ body {
 label {
   font-size: 40px;
   font-family: 'Chicle', cursive;
+  padding-right: 10px;
 }
 
 .btn {

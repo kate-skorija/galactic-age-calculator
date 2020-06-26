@@ -68,8 +68,8 @@ $(document).ready(function() {
         $(".jupiterYearsLeft").text(user.yearsLeftOnJupiter);
       }
     });
-  $("#reset").click(function() {
-      location.reload(true);
   });
+  $("#reset").click(function() {
+    location.reload(true);
   });
 });
