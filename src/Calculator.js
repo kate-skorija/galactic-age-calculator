@@ -5,6 +5,7 @@ export class User {
     this.yearsLeftOnEarth;
     this.yearsOverEarth;
     this.mercuryAge;
+    this.yearsOverMercury;
     this.yearsLeftOnMercury;
     this.venusAge;
     this.yearsLeftOnVenus;
