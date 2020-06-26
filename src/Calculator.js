@@ -34,7 +34,11 @@ export class User {
 
   calculateVenus() {
     this.venusAge = parseFloat((this.earthAge * .62).toFixed(2))
-    this.yearsLeftOnVenus = parseFloat((this.yearsLeftOnEarth * .62).toFixed(2))
+    if (this.yearsOverEarth) {
+      this.yearsOverVenus = parseFloat((this.yearsOverEarth * .62).toFixed(2))
+    } else {
+      this.yearsLeftOnVenus = parseFloat((this.yearsLeftOnEarth * .62).toFixed(2))
+    }
   }
 
   calculateMars() {
