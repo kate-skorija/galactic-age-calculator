@@ -15,7 +15,11 @@ export class User {
   }
 
   earthYearsRemaining() {
-    this.yearsLeftOnEarth = (this.earthLifeExpectancy - this.earthAge);
+    if (this.earthLifeExpectancy >= this.earthAge) {
+      this.yearsLeftOnEarth = (this.earthLifeExpectancy - this.earthAge);
+    } else if (this.earthAge > this.earthLifeExpectancy) {
+      this.yearsOverEarth = (this.earthAge - this.earthLifeExpectancy);
+    }
   }
 
   calculateMercury() {
