@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a website for calculating your age on another planet. It was built using JavaScript, bundled with webpack, and tested with Jest.
+This is a website for calculating your age on other planets. It was built using JavaScript, bundled with webpack, and tested with Jest.
 
 ## Specifications
 
