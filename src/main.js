@@ -19,27 +19,51 @@ $(document).ready(function() {
     user.calculateVenus();
     user.calculateMars();
     user.calculateJupiter();
+
+    if (user.yearsOverEarth) {
+      let longLived = (`You are ${user.earthAge} years old in Earth years, and you have outlived your life expectancy by ${user.yearsOverEarth} years!`)
+      $(".earthResults").text(longLived);
+    } else {
+      let earthResult = (`Your are ${user.earthAge} years old in Earth years, and you have ${user.earthLifeExpectancy} years remaining on this planet.`)
+      $(".earthResults").text(earthResult);
+    }
     
     $("#planets").show();
     $("#imgMercury").click(function() {
       $("#mercuryResults").show();
       $(".mercuryAge").text(user.mercuryAge);
-      $(".mercuryYearsLeft").text(user.yearsLeftOnMercury);
+      if (user.yearsOverEarth) {
+        $(".mercuryYearsLeft").text(`You are ${user.yearsOverMercury} years over your Mercury life expectancy!`);
+      } else {
+        $(".mercuryYearsLeft").text(user.yearsLeftOnMercury);
+      }
     });
     $("#imgVenus").click(function() {
       $("#venusResults").show();
       $(".venusAge").text(user.venusAge);
-      $(".venusYearsLeft").text(user.yearsLeftOnVenus);
+      if (user.yearsOverEarth) {
+        $(".venusYearsLeft").text(`You are ${user.yearsOverVenus} years over your Venus life expectancy!`);
+      } else {
+        $(".venusYearsLeft").text(user.yearsLeftOnVenus);
+      }
     });
     $("#imgMars").click(function() {
       $("#marsResults").show();
       $(".marsAge").text(user.marsAge);
-      $(".marsYearsLeft").text(user.yearsLeftOnMars);
+      if (user.yearsOverEarth) {
+        $(".marsYearsLeft").text(`You are ${user.yearsOverMars} years over your Mars life expectancy!`);
+      } else {
+        $(".marsYearsLeft").text(user.yearsLeftOnMars);
+      }
     });
     $("#imgJupiter").click(function() {
       $("#jupiterResults").show();
       $(".jupiterAge").text(user.jupiterAge);
-      $(".jupiterYearsLeft").text(user.yearsLeftOnJupiter);
+      if (user.yearsOverEarth) {
+        $(".jupiterYearsLeft").text(`You are ${user.yearsOverJupiter} years over your Jupiter life expectancy!`);
+      } else {
+        $(".jupiterYearsLeft").text(user.yearsLeftOnJupiter);
+      }
     });
   });
 });

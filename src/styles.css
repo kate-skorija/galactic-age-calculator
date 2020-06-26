@@ -1,3 +1,5 @@
+/* Hidden Results ------------------------*/
+
 #planets {
   display: none;
 }
@@ -6,8 +8,11 @@
   display: none;
 }
 
+/* Header -------------------------------*/
+
 header {
   margin: 50px 0;
+  color: lightskyblue;
 }
 
 header p {
@@ -18,6 +23,14 @@ h1 {
   font-size: 70px;
 }
 
+/* Form ---------------------------------*/
+
+body {
+  background-image: url(./../assets/images/universe.jpg);
+  margin-bottom: 200px;
+  color: lightcyan;
+}
+
 #form {
   margin: 50px 0;
 }
@@ -26,6 +39,7 @@ label {
   font-size: 20px;
 }
 
+/* Images -------------------------------*/
 img {
   padding: 30px;
 }
@@ -49,10 +63,7 @@ img {
   height: auto;
 }
 
-body {
-  background-color: salmon;
-  margin-bottom: 200px;
-}
+/* Results ------------------------------*/
 
 h2 {
   margin-bottom: 15px;
