@@ -3,6 +3,7 @@ export class User {
     this.earthAge = earthAge;
     this.earthLifeExpectancy = earthLifeExpectancy; 
     this.yearsLeftOnEarth;
+    this.yearsOverEarth;
     this.mercuryAge;
     this.yearsLeftOnMercury;
     this.venusAge;

@@ -2,9 +2,11 @@ import { User } from './../src/Calculator.js';
 
 describe('Earth age and life expectancy', () => {
   let user;
+  let user2;
 
   beforeEach(() => {
-    user = new User(27,98)
+    user = new User(27, 98)
+    user2 = new User(103, 87)
     user.earthYearsRemaining();
     user.calculateMercury();
     user.calculateVenus();
@@ -52,4 +54,8 @@ describe('Earth age and life expectancy', () => {
     expect(user.yearsLeftOnJupiter).toEqual(842.06);
   });
 
+  test('should return how many Earth years a user is over their life expectancy', () => {
+    user2.earthYearsRemaining();
+    expect(user2.yearsOverEarth).toEqual(16);
+  });
 });
