@@ -3,16 +3,16 @@ export class User {
     this.earthAge = earthAge;
     this.earthLifeExpectancy = earthLifeExpectancy; 
     this.yearsLeftOnEarth;
-    this.yearsOverEarth;
-    this.mercuryAge;
-    this.yearsOverMercury;
-    this.yearsLeftOnMercury;
-    this.venusAge;
-    this.yearsLeftOnVenus;
-    this.marsAge;
-    this.yearsLeftOnMars;
-    this.jupiterAge;
-    this.yearsLeftOnJupiter;
+    // this.yearsOverEarth;
+    // this.mercuryAge;
+    // this.yearsOverMercury;
+    // this.yearsLeftOnMercury;
+    // this.venusAge;
+    // this.yearsLeftOnVenus;
+    // this.marsAge;
+    // this.yearsLeftOnMars;
+    // this.jupiterAge;
+    // this.yearsLeftOnJupiter;
   }
 
   earthYearsRemaining() {
@@ -25,7 +25,11 @@ export class User {
 
   calculateMercury() {
     this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2))
-    this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
+    if (this.yearsOverEarth) {
+      this.yearsOverMercury = parseFloat((this.yearsOverEarth * .24).toFixed(2))
+    } else {
+      this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
+    } 
   }
 
   calculateVenus() {

@@ -51,6 +51,7 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return users years left on Jupiter', () => {
+    console.log(user);
     expect(user.yearsLeftOnJupiter).toEqual(842.06);
   });
 
@@ -60,7 +61,9 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return how many Mercury years a user is over their life expectancy', () => {
+    user2.earthYearsRemaining();
     user2.calculateMercury();
+    console.log(user2);
     expect(user2.yearsOverMercury).toEqual(3.84);
   });
 });
