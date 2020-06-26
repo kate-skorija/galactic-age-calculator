@@ -26,5 +26,20 @@ $(document).ready(function() {
       $(".mercuryAge").text(user.mercuryAge);
       $(".mercuryYearsLeft").text(user.yearsLeftOnMercury);
     });
+    $("#imgVenus").click(function() {
+      $("#venusResults").show();
+      $(".venusAge").text(user.venusAge);
+      $(".venusYearsLeft").text(user.yearsLeftOnVenus);
+    });
+    $("#imgMars").click(function() {
+      $("#marsResults").show();
+      $(".marsAge").text(user.marsAge);
+      $(".marsYearsLeft").text(user.yearsLeftOnMars);
+    });
+    $("#imgJupiter").click(function() {
+      $("#jupiterResults").show();
+      $(".jupiterAge").text(user.jupiterAge);
+      $(".jupiterYearsLeft").text(user.yearsLeftOnJupiter);
+    });
   });
 });
