@@ -6,6 +6,8 @@ describe('Earth age and life expectancy', () => {
   beforeEach(() => {
     user = new User(27,98)
     user.earthYearsRemaining();
+    user.calculateMercury();
+    user.calculateVenus();
   })
 
   test('should return user age in Earth years', () => {
@@ -17,22 +19,18 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return user age in Mercury years', () => {
-    user.calculateMercury();
     expect(user.mercuryAge).toEqual(6.48);
   });
 
   test('should return users years left on Mercury', () => {
-    user.calculateMercury();
     expect(user.yearsLeftOnMercury).toEqual(17.04);
   });
 
   test('should return user age in Venus years', () => {
-    user.calculateVenusAge();
     expect(user.venusAge).toEqual(16.74);
   });
 
   test('should return user age in Venus years', () => {
-    user.venusYearsRemaining();
     expect(user.yearsLeftOnVenus).toEqual(44.02);
   });
 });
