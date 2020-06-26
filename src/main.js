@@ -68,12 +68,8 @@ $(document).ready(function() {
         $(".jupiterYearsLeft").text(user.yearsLeftOnJupiter);
       }
     });
-    $("#reset").click(function() {
-      $("#userAge").val("");
-      $("#userLifeExpectancy").val("");
-      $("form").show();
-      $("#headerInfo").show();
-      $("#planets").hide();
-    });
+  $("#reset").click(function() {
+      location.reload(true);
+  });
   });
 });
