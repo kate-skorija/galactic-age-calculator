@@ -32,11 +32,8 @@ export class User {
     this.yearsLeftOnMars = parseFloat((this.yearsLeftOnEarth * 1.88).toFixed(2))
   }
 
-  calculateJupiterAge() {
+  calculateJupiter() {
     this.jupiterAge = parseFloat((this.earthAge * 11.86).toFixed(2))
-  }
-
-  jupiterYearsRemaining() {
     this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2))
   }
 
