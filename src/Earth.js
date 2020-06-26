@@ -5,5 +5,6 @@ export class Earth {
   }
 
   yearsRemaining() {
+    return this.lifeExpectancy - this.age;
   }
 }
