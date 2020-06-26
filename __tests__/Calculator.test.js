@@ -10,7 +10,6 @@ describe('Earth age and life expectancy', () => {
     user.earthYearsRemaining();
     user2.earthYearsRemaining();
     user.calculateMercury();
-    user2.calculateMercury();
     user.calculateVenus();
     user.calculateMars();
     user.calculateJupiter();
@@ -62,11 +61,17 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return how many Mercury years a user is over their life expectancy', () => {
+    user2.calculateMercury();
     expect(user2.yearsOverMercury).toEqual(3.84);
   });
 
   test('should return how many Venus years a user is over their life expectancy', () => {
     user2.calculateVenus();
     expect(user2.yearsOverVenus).toEqual(9.92);
+  });
+
+  test('should return how many Mars years a user is over their life expectancy', () => {
+    user2.calculateMars();
+    expect(user2.yearsOverMars).toEqual(30.08);
   });
 });
