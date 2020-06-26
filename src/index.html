@@ -3,9 +3,54 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Super Galactic Age Calculator</title>
   </head>
   <body>
-    
+    <div class="container">
+      <header>
+        <h1>Super Galactic Age Calculator</h1>
+        <p>Enter your age and the average life expectancy for your demographic to see how old you are and how long you have left to live on other planets!</p>
+      </header>
+      <main>
+        <form>
+          <label for="userAge">Your Earth Age:</label>
+          <input id="userAge" type="text">
+          <label for="userLifeExpectancy">Life Expectancy:</label>
+          <input id="userLifeExpectancy" type="text">
+          <button type="submit" class="btn">Submit</button>
+        </form>
+        <div id="output">
+          <p>Click on a planet to see your galactic age, and to see the number of years remaining before you turn back into stardust!</p>
+          <div class="row">
+            <div class="col-sm-3" id="mercury">
+              <h2>Mercury</h2>
+              <img src="./../assets/images/mercury.png" class="img-fluid" alt="Mercury">
+              <h3>Age:<span class="mercuryAge"></span></h3>
+              <h3>Years Remaining:<span class="mercuryYearsLeft"></span></h3>
+            </div>
+            <div class="col-sm-3" id="venus">
+              <h2>Venus</h2>
+              <img src="./../assets/images/venus.png" class="img-fluid" alt="Venus">
+              <h3>Age:<span class="venusAge"></span></h3>
+              <h3>Years Remaining:<span class="venusYearsLeft"></span></h3>
+            </div>
+            <div class="col-sm-3" id="mars">
+              <h2>Mars</h2>
+              <img src="./../assets/images/mars.png" class="img-fluid" alt="Mars">
+              <h3>Age:<span class="marsAge"></span></h3>
+              <h3>Years Remaining:<span class="marsYearsLeft"></span></h3>
+            </div>
+            <div class="col-sm-3" id="jupiter">
+              <h2>Jupiter</h2>
+              <img src="./../assets/images/jupiter.png" class="img-fluid" alt="Jupiter">
+              <h3>Age:<span class="jupiterAge"></span></h3>
+              <h3>Years Remaining:<span class="jupiterYearsLeft"></span></h3>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer>
+      </footer>
+    </div>
   </body>
 </html>
