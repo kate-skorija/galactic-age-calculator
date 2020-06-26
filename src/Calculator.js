@@ -2,9 +2,11 @@ export class User {
   constructor(earthAge, earthLifeExpectancy) {
     this.earthAge = earthAge;
     this.earthLifeExpectancy = earthLifeExpectancy; 
-    this.yearsLeftOnEarth = 0;
-    this.mercuryAge = 0;
-    this.yearsLeftOnMercury = 0;
+    this.yearsLeftOnEarth;
+    this.mercuryAge;
+    this.yearsLeftOnMercury;
+    this.venusAge;
+    this.yearsLeftOnVenus;
   }
 
   earthYearsRemaining() {
@@ -17,6 +19,6 @@ export class User {
   }
 
   calculateVenusAge() {
-    
+    this.venusAge = parseFloat((this.earthAge * .62).toFixed(2))
   }
 }
