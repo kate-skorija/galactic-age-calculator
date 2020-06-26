@@ -3,9 +3,14 @@ export class User {
     this.earthAge = earthAge;
     this.earthLifeExpectancy = earthLifeExpectancy; 
     this.yearsLeftOnEarth = 0;
+    this.mercuryAge = 0;
   }
 
   earthYearsRemaining() {
     this.yearsLeftOnEarth = (this.earthLifeExpectancy - this.earthAge);
+  }
+
+  calculateMercuryAge() {
+
   }
 }
