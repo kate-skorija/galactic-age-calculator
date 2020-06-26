@@ -24,35 +24,38 @@ export class User {
   }
 
   calculateMercury() {
-    this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2))
+    this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2));
     if (this.yearsOverEarth) {
-      this.yearsOverMercury = parseFloat((this.yearsOverEarth * .24).toFixed(2))
+      this.yearsOverMercury = parseFloat((this.yearsOverEarth * .24).toFixed(2));
     } else {
-      this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
+      this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2));
     } 
   }
 
   calculateVenus() {
-    this.venusAge = parseFloat((this.earthAge * .62).toFixed(2))
+    this.venusAge = parseFloat((this.earthAge * .62).toFixed(2));
     if (this.yearsOverEarth) {
-      this.yearsOverVenus = parseFloat((this.yearsOverEarth * .62).toFixed(2))
+      this.yearsOverVenus = parseFloat((this.yearsOverEarth * .62).toFixed(2));
     } else {
-      this.yearsLeftOnVenus = parseFloat((this.yearsLeftOnEarth * .62).toFixed(2))
+      this.yearsLeftOnVenus = parseFloat((this.yearsLeftOnEarth * .62).toFixed(2));
     }
   }
 
   calculateMars() {
-    this.marsAge = parseFloat((this.earthAge * 1.88).toFixed(2))
+    this.marsAge = parseFloat((this.earthAge * 1.88).toFixed(2));
     if (this.yearsOverEarth) {
-      this.yearsOverMars = parseFloat((this.yearsOverEarth * 1.88).toFixed(2))
+      this.yearsOverMars = parseFloat((this.yearsOverEarth * 1.88).toFixed(2));
     } else {
       this.yearsLeftOnMars = parseFloat((this.yearsLeftOnEarth * 1.88).toFixed(2))
     }
   }
 
   calculateJupiter() {
-    this.jupiterAge = parseFloat((this.earthAge * 11.86).toFixed(2))
-    this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2))
+    this.jupiterAge = parseFloat((this.earthAge * 11.86).toFixed(2));
+    if (this.yearsOverEarth) {
+      this.yearsOverJupiter = parseFloat((this.yearsOverEarth * 11.86).toFixed(2));
+    } else {
+    this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2));
+    }
   }
-
 }
