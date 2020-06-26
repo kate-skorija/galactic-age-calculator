@@ -47,4 +47,9 @@ describe('Earth age and life expectancy', () => {
     user.calculateJupiterAge();
     expect(user.jupiterAge).toEqual(320.22);
   });
+
+  test('should return users years left on Jupiter', () => {
+    user.jupiterYearsRemaining();
+    expect(user.yearsLeftOnJupiter).toEqual(842.06);
+  });
 });
