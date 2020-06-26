@@ -1,12 +1,50 @@
-/* #output {
+#output {
   display: none;
-} */
+}
+
+header p {
+  font-size: 30px;
+}
+
+#form {
+  margin: 50px 0;
+}
 
 img {
+  padding: 30px;
+}
+
+#imgMercury {
+  width: 150px;
+  height: auto;
+}
+#imgVenus {
   width: 250px;
+  height: auto;
+}
+
+#imgMars {
+  width: 200px;
+  height: auto;
+}
+
+#imgJupiter {
+  width: 350px;
   height: auto;
 }
 
 body {
   background-color: salmon;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+#output {
+  text-align: center;
+}
+
+#output p {
+  font-size: 30px;
 }

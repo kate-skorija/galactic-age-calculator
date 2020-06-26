@@ -9,42 +9,56 @@
     <div class="container">
       <header>
         <h1>Super Galactic Age Calculator</h1>
-        <p>Enter your age and the average life expectancy for your demographic to see how old you are and how long you have left to live on other planets!</p>
+        <p>See how old you are and how long you have left to live on other planets!<br>Enter your age and the average life expectancy for your demographic below. </p>
       </header>
       <main>
+        <div id="form">
         <form>
-          <label for="userAge">Your Earth Age:</label>
-          <input id="userAge" type="text">
-          <label for="userLifeExpectancy">Life Expectancy:</label>
-          <input id="userLifeExpectancy" type="text">
-          <button type="submit" class="btn">Submit</button>
+          <div class="form-group">
+            <label for="userAge">Your Earth Age:</label>
+            <input id="userAge" type="text">
+          </div>
+          <div class="form-group">
+            <label for="userLifeExpectancy">Life Expectancy: </label>
+            <input id="userLifeExpectancy" type="text">
+          </div>
+          <button type="submit" class="btn btn-success">Submit</button>
         </form>
+        </div>
         <div id="output">
           <p>Click on a planet to see your galactic age, and to see the number of years remaining before you turn back into stardust!</p>
           <div class="row">
             <div class="col-sm-3" id="mercury">
+              <img src="./../assets/images/mercury.png" class="img-fluid" id="imgMercury" alt="Mercury">
               <h2>Mercury</h2>
-              <img src="./../assets/images/mercury.png" class="img-fluid" alt="Mercury">
-              <h3>Age:<span class="mercuryAge"></span></h3>
-              <h3>Years Remaining:<span class="mercuryYearsLeft"></span></h3>
+              <div id="results">
+                <h3>Age:<span class="mercuryAge"></span></h3>
+                <h3>Years Remaining:<span class="mercuryYearsLeft"></span></h3>
+              </div>
             </div>
             <div class="col-sm-3" id="venus">
+              <img src="./../assets/images/venus.png" class="img-fluid" id="imgVenus" alt="Venus">
               <h2>Venus</h2>
-              <img src="./../assets/images/venus.png" class="img-fluid" alt="Venus">
-              <h3>Age:<span class="venusAge"></span></h3>
-              <h3>Years Remaining:<span class="venusYearsLeft"></span></h3>
+              <div id="results">
+                <h3>Age:<span class="venusAge"></span></h3>
+                <h3>Years Remaining:<span class="venusYearsLeft"></span></h3>
+              </div>
             </div>
             <div class="col-sm-3" id="mars">
+              <img src="./../assets/images/mars.png" class="img-fluid" id="imgMars" alt="Mars">
               <h2>Mars</h2>
-              <img src="./../assets/images/mars.png" class="img-fluid" alt="Mars">
-              <h3>Age:<span class="marsAge"></span></h3>
-              <h3>Years Remaining:<span class="marsYearsLeft"></span></h3>
+              <div id="results">
+                <h3>Age:<span class="marsAge"></span></h3>
+                <h3>Years Remaining:<span class="marsYearsLeft"></span></h3>
+              </div>
             </div>
             <div class="col-sm-3" id="jupiter">
+              <img src="./../assets/images/jupiter.png" class="img-fluid" id="imgJupiter" alt="Jupiter">
               <h2>Jupiter</h2>
-              <img src="./../assets/images/jupiter.png" class="img-fluid" alt="Jupiter">
+              <div id="results">
               <h3>Age:<span class="jupiterAge"></span></h3>
               <h3>Years Remaining:<span class="jupiterYearsLeft"></span></h3>
+              </div>
             </div>
           </div>
         </div>
