@@ -16,6 +16,6 @@ export class User {
   }
 
   mercuryYearsRemaining() {
-    
+    this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
   }
 }

@@ -5,6 +5,7 @@ describe('Earth age and life expectancy', () => {
 
   beforeEach(() => {
     user = new User(27,98)
+    user.earthYearsRemaining();
   })
 
   test('should return user age in Earth years', () => {
@@ -12,7 +13,6 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return users years left on Earth', () => {
-    user.earthYearsRemaining();
     expect(user.yearsLeftOnEarth).toEqual(71);
   });
 
@@ -23,7 +23,7 @@ describe('Earth age and life expectancy', () => {
 
   test('should return users years left on Mercury', () => {
     user.mercuryYearsRemaining();
-    expect(user.yearsLeftOnMercury).toEqual(70.76);
+    expect(user.yearsLeftOnMercury).toEqual(17.04);
   });
 
 });
