@@ -30,12 +30,17 @@ describe('Earth age and life expectancy', () => {
     expect(user.venusAge).toEqual(16.74);
   });
 
-  test('should return user age in Venus years', () => {
+  test('should return users years left on Venus', () => {
     expect(user.yearsLeftOnVenus).toEqual(44.02);
   });
 
   test('should return user age in Mars years', () => {
     user.calculateMarsAge();
     expect(user.marsAge).toEqual(50.76);
+  });
+
+  test('should return users years left on Mars', () => {
+    user.marsYearsRemaining;
+    expect(user.yearsLeftOnMars).toEqual(133.48);
   });
 });
