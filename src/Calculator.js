@@ -21,4 +21,8 @@ export class User {
   calculateVenusAge() {
     this.venusAge = parseFloat((this.earthAge * .62).toFixed(2))
   }
+
+  venusYearsRemaining() {
+    
+  }
 }
