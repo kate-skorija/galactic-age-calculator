@@ -35,7 +35,7 @@ export class User {
     if (this.yearsOverEarth) {
       this.yearsOverMars = parseFloat((this.yearsOverEarth * 1.88).toFixed(2));
     } else {
-      this.yearsLeftOnMars = parseFloat((this.yearsLeftOnEarth * 1.88).toFixed(2))
+      this.yearsLeftOnMars = parseFloat((this.yearsLeftOnEarth * 1.88).toFixed(2));
     }
   }
 
@@ -44,7 +44,7 @@ export class User {
     if (this.yearsOverEarth) {
       this.yearsOverJupiter = parseFloat((this.yearsOverEarth * 11.86).toFixed(2));
     } else {
-    this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2));
+      this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2));
     }
   }
 }

@@ -1,13 +1,29 @@
-#output {
+#planets {
   display: none;
+}
+
+#results {
+  display: none;
+}
+
+header {
+  margin: 50px 0;
 }
 
 header p {
   font-size: 30px;
 }
 
+h1 {
+  font-size: 70px;
+}
+
 #form {
   margin: 50px 0;
+}
+
+label {
+  font-size: 20px;
 }
 
 img {
@@ -41,10 +57,10 @@ h2 {
   margin-bottom: 15px;
 }
 
-#output {
+#planets {
   text-align: center;
 }
 
-#output p {
+#planets p {
   font-size: 30px;
 }
