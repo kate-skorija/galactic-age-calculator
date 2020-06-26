@@ -2,7 +2,7 @@
   display: none;
 }
 
-#results {
+.results {
   display: none;
 }
 
@@ -51,6 +51,7 @@ img {
 
 body {
   background-color: salmon;
+  margin-bottom: 200px;
 }
 
 h2 {
@@ -63,4 +64,9 @@ h2 {
 
 #planets p {
   font-size: 30px;
+}
+
+.galacticNumbers {
+  font-size: 35px;
+  color: lime;
 }

@@ -5,13 +5,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 $(document).ready(function() {
+  
   $("form").submit(function(event) {
     event.preventDefault();
 
     let userAge = parseInt($("#userAge").val());
     let userLifeExpectancy = parseInt($("#userLifeExpectancy").val());
-
+    
     let user = new User(userAge, userLifeExpectancy);
+
     user.earthYearsRemaining();
     user.calculateMercury();
     user.calculateVenus();
@@ -19,6 +21,10 @@ $(document).ready(function() {
     user.calculateJupiter();
     
     $("#planets").show();
-
+    $("#imgMercury").click(function() {
+      $("#mercuryResults").show();
+      $(".mercuryAge").text(user.mercuryAge);
+      $(".mercuryYearsLeft").text(user.yearsLeftOnMercury);
+    });
   });
 });
