@@ -40,7 +40,7 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return users years left on Mars', () => {
-    user.marsYearsRemaining;
+    user.marsYearsRemaining();
     expect(user.yearsLeftOnMars).toEqual(133.48);
   });
 });
