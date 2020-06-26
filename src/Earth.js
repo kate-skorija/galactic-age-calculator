@@ -1,10 +1,11 @@
 export class Earth {
   constructor(age, lifeExpectancy) {
     this.age = age;
-    this.lifeExpectancy = lifeExpectancy;  
+    this.lifeExpectancy = lifeExpectancy; 
+    this.yearsLeft = 0;
   }
 
   yearsRemaining() {
-    return this.lifeExpectancy - this.age;
+    this.yearsLeft = (this.lifeExpectancy - this.age);
   }
 }
