@@ -1,6 +1,6 @@
 import { User } from './../src/Calculator.js';
 
-describe('Earth age and life expectancy', () => {
+describe('Earth, Mercury, Venus, Mars, & Jupiter age and life expectancy', () => {
   let user;
   let user2;
 
@@ -73,5 +73,10 @@ describe('Earth age and life expectancy', () => {
   test('should return how many Mars years a user is over their life expectancy', () => {
     user2.calculateMars();
     expect(user2.yearsOverMars).toEqual(30.08);
+  });
+
+  test('should return how many Jupiter years a user is over their life expectancy', () => {
+    user2.calculateJupiter();
+    expect(user2.yearsOverJupiter).toEqual(189.76);
   });
 });
