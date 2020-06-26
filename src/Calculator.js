@@ -37,7 +37,7 @@ export class User {
   }
 
   jupiterYearsRemaining() {
-
+    this.yearsLeftOnJupiter = parseFloat((this.yearsLeftOnEarth * 11.86).toFixed(2))
   }
 
 }
