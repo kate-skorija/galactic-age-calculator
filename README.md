@@ -26,35 +26,35 @@ This is a website for calculating your age on another planet. It was built using
   * Input: Earth years
   * Output: Mercury years
 
-**Behavior**: Program will return user age's in Venus years
-  * Input: Earth years
-  * Output: Venus years
-
-**Behavior**: Program will return user age's in Mars Years
- * Input: Earth years
- * Output: Mars years
-
-**Behavior**: Program will return user age's in Jupiter Years
- * Input: Earth years
- * Output: Jupiter years
-
 **Behavior**: Program will return how many years a user has left to live on Mercury
   * Input: Life expectancy
   * Output: Years left on Mercury
+
+**Behavior**: Program will return user age's in Venus years
+  * Input: Earth years
+  * Output: Venus years
 
 **Behavior**: Program will return how many years a user has left to live on Venus
   * Input: Life expectancy
   * Output: Years left on Venus
 
+**Behavior**: Program will return user age's in Mars Years
+ * Input: Earth years
+ * Output: Mars years
+
 **Behavior**: Program will return how many years a user has left to live on Mars
   * Input: Life expectancy
   * Output: Years left on Mars
+
+**Behavior**: Program will return user age's in Jupiter Years
+ * Input: Earth years
+ * Output: Jupiter years
 
 **Behavior**: Program will return how many years a user has left to live on Jupiter
   * Input: Life expectancy
   * Output: Years left on Jupiter
 
-**Behavior**: If the user has surpassed their life expectancy rogram will return how many years a user has surpassed their life expectancy
+**Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy
   * Input: Life expectancy
   * Output: "You've lived 21 years past your life expectancy"
 
