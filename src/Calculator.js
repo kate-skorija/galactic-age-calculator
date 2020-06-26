@@ -11,11 +11,8 @@ export class User {
     this.yearsLeftOnEarth = (this.earthLifeExpectancy - this.earthAge);
   }
 
-  calculateMercuryAge() {
+  calculateMercury() {
     this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2))
-  }
-
-  mercuryYearsRemaining() {
     this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
   }
 }
