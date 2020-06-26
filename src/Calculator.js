@@ -23,6 +23,6 @@ export class User {
   }
 
   venusYearsRemaining() {
-    
+    this.yearsLeftOnVenus = parseFloat((this.yearsLeftOnEarth * .62).toFixed(2))
   }
 }
