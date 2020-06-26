@@ -8,6 +8,7 @@ describe('Earth age and life expectancy', () => {
     user.earthYearsRemaining();
     user.calculateMercury();
     user.calculateVenus();
+    user.calculateMars();
   })
 
   test('should return user age in Earth years', () => {
@@ -35,12 +36,10 @@ describe('Earth age and life expectancy', () => {
   });
 
   test('should return user age in Mars years', () => {
-    user.calculateMarsAge();
     expect(user.marsAge).toEqual(50.76);
   });
 
   test('should return users years left on Mars', () => {
-    user.marsYearsRemaining();
     expect(user.yearsLeftOnMars).toEqual(133.48);
   });
 });
