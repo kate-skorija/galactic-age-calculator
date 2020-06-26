@@ -15,4 +15,8 @@ export class User {
     this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2))
     this.yearsLeftOnMercury = parseFloat((this.yearsLeftOnEarth * .24).toFixed(2))
   }
+
+  calculateVenusAge() {
+    
+  }
 }
