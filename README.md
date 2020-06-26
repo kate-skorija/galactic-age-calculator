@@ -10,9 +10,17 @@ This is a website for calculating your age on another planet. It was built using
 
 ## Specifications
 
-**Behavior**: Program will take a user's age and life expectancy in Earth years
+**Behavior**: Program will take a user's age in Earth years
   * Input: User submits Earth age into form field
-  * Output: Program takes in Earth age value
+  * Output: Earth years
+
+**Behavior**: Program will return a user's life expectancy in Earth years
+  * Input: User submits Earth life expectancy into form field
+  * Output: Earth life expectancy
+
+  **Behavior**: Program will return a user's age and life expectancy in Earth years
+  * Input: User submits Earth age and life expectancy into form field
+  * Output: Earth years and Earth life expectancy
 
 **Behavior**: Program will return user's age in Mercury years
   * Input: Earth years
