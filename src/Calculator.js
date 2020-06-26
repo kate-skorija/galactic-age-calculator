@@ -11,6 +11,6 @@ export class User {
   }
 
   calculateMercuryAge() {
-
+    this.mercuryAge = parseFloat((this.earthAge * .24).toFixed(2))
   }
 }
