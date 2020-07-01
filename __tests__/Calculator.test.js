@@ -24,35 +24,35 @@ describe('Earth, Mercury, Venus, Mars, & Jupiter age and life expectancy', () =>
   });
 
   test('should return user age in Mercury years', () => {
-    expect(user.mercuryAge).toEqual(6.48);
+    expect(user.mercuryAge).toEqual(112.5);
   });
 
   test('should return users years left on Mercury', () => {
-    expect(user.yearsLeftOnMercury).toEqual(17.04);
+    expect(user.yearsLeftOnMercury).toEqual(295.83);
   });
 
   test('should return user age in Venus years', () => {
-    expect(user.venusAge).toEqual(16.74);
+    expect(user.venusAge).toEqual(43.55);
   });
 
   test('should return users years left on Venus', () => {
-    expect(user.yearsLeftOnVenus).toEqual(44.02);
+    expect(user.yearsLeftOnVenus).toEqual(114.52);
   });
 
   test('should return user age in Mars years', () => {
-    expect(user.marsAge).toEqual(50.76);
+    expect(user.marsAge).toEqual(14.36);
   });
 
   test('should return users years left on Mars', () => {
-    expect(user.yearsLeftOnMars).toEqual(133.48);
+    expect(user.yearsLeftOnMars).toEqual(37.77);
   });
 
   test('should return user age in Jupiter years', () => {
-    expect(user.jupiterAge).toEqual(320.22);
+    expect(user.jupiterAge).toEqual(2.28);
   });
 
   test('should return users years left on Jupiter', () => {
-    expect(user.yearsLeftOnJupiter).toEqual(842.06);
+    expect(user.yearsLeftOnJupiter).toEqual(5.99);
   });
 
   test('should return how many Earth years a user is over their life expectancy', () => {
@@ -62,21 +62,21 @@ describe('Earth, Mercury, Venus, Mars, & Jupiter age and life expectancy', () =>
 
   test('should return how many Mercury years a user is over their life expectancy', () => {
     user2.calculateMercury();
-    expect(user2.yearsOverMercury).toEqual(3.84);
+    expect(user2.yearsOverMercury).toEqual(66.67);
   });
 
   test('should return how many Venus years a user is over their life expectancy', () => {
     user2.calculateVenus();
-    expect(user2.yearsOverVenus).toEqual(9.92);
+    expect(user2.yearsOverVenus).toEqual(25.81);
   });
 
   test('should return how many Mars years a user is over their life expectancy', () => {
     user2.calculateMars();
-    expect(user2.yearsOverMars).toEqual(30.08);
+    expect(user2.yearsOverMars).toEqual(8.51);
   });
 
   test('should return how many Jupiter years a user is over their life expectancy', () => {
     user2.calculateJupiter();
-    expect(user2.yearsOverJupiter).toEqual(189.76);
+    expect(user2.yearsOverJupiter).toEqual(1.35);
   });
 });
