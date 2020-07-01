@@ -20,55 +20,55 @@ This is a website for calculating your age on other planets. It will also calcul
 
 **Behavior**: Program will return user's age in Mercury years
   * Input: Earth years: 27
-  * Output: Mercury years: 6.48
+  * Output: Mercury years: 112.5
 
 **Behavior**: Program will return how many years a user has left to live on Mercury
   * Input: Life expectancy: 98
-  * Output: Years left on Mercury: 17.04
+  * Output: Years left on Mercury: 295.83
 
 **Behavior**: Program will return user age's in Venus years
   * Input: Earth years: 27
-  * Output: Venus years: 16.74
+  * Output: Venus years: 43.55
 
 **Behavior**: Program will return how many years a user has left to live on Venus
   * Input: Life expectancy: 98
-  * Output: Years left on Venus: 44.02
+  * Output: Years left on Venus: 114.52
 
 **Behavior**: Program will return user age's in Mars Years
  * Input: Earth years: 27
- * Output: Mars years: 50.76
+ * Output: Mars years: 14.36
 
 **Behavior**: Program will return how many years a user has left to live on Mars
   * Input: Life expectancy: 98
-  * Output: Years left on Mars: 133.48
+  * Output: Years left on Mars: 37.77
 
 **Behavior**: Program will return user age's in Jupiter Years
  * Input: Earth years: 27
- * Output: Jupiter years: 320.22
+ * Output: Jupiter years: 2.28
 
 **Behavior**: Program will return how many years a user has left to live on Jupiter
   * Input: Life expectancy: 98
-  * Output: Years left on Jupiter: 842.06
+  * Output: Years left on Jupiter: 5.99
 
 **Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy in Earth years
   * Input: Life Expectancy: 89
   * Output: Number of Earth years past life expectancy: 16
 
 **Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy in Mercury years
-  * Input: Life Expectancy: 89
-  * Output: Number of Mercury years past life expectancy: 3.84
+  * Input: Age: 103, Life Expectancy: 89
+  * Output: Number of Mercury years past life expectancy: 58.33
 
 **Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy in Venus years
   * Input: Life Expectancy: 89
-  * Output: Number of Venus years past life expectancy: 9.92
+  * Output: Number of Venus years past life expectancy: 22.58
 
 **Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy in Mars years
   * Input: Life Expectancy: 89
-  * Output: Number of Mars years past life expectancy: 30.08
+  * Output: Number of Mars years past life expectancy: 7.45
 
 **Behavior**: If the user has surpassed their life expectancy program will return how many years a user has surpassed their life expectancy in Jupiter years
   * Input: Life Expectancy: 89
-  * Output: Number of Jupiter years past life expectancy: 189.76
+  * Output: Number of Jupiter years past life expectancy: 1.18
 
 ## Setup/Installation Requirements
 
