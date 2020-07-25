@@ -6,7 +6,7 @@
 
 ## Description
 
-This is a website for calculating your age on other planets. It will also calculate the years you have remaining on each planet before you bite the stardust. It was built using JavaScript, bundled with webpack, and tested with Jest.
+This project demonstrates what I learned this week: how to use webpack, and how to implement test driven development with Jest. Super Galactic Age Calculator is a website for calculating your age on other planets. It will also calculate the years you have remaining on each planet before you bite the stardust, so to speak. It was built using JavaScript, bundled with webpack, and tested with Jest.
 
 ## Specifications
 
